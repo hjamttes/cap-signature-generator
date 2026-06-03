@@ -36,7 +36,7 @@
 
 			const template = {
 				generic: () =>
-					`<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><html><body><br /><h1 style="font-size: 12px; line-height: 12px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #BA0C2F; font-weight: normal; margin: 0 0 5px;">${
+					`<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><html><body><br /><h1 style="font-size: 12px; line-height: 12px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #BA0C2F; font-weight: bold; margin: 0 0 0;">${
 						grade_type === 'Cadet' ? 'Cadet ' : ''
 					}${vals.grade && `${vals.grade} `}${vals.name}</h1>${
 						vals.title
@@ -62,7 +62,7 @@
 						vals.website_text && vals.website_url
 							? `<p style="font-size: 12px; line-height: 12px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #001871; font-weight: normal; margin: 0 0 5px;"><a href="${vals.website_url}">${vals.website_text}</a></p>`
 							: ''
-					}<a href="https://www.GoCivilAirPatrol.com"><img src="unnamed.png" style="margin: 10px 0 10px -5px; max-width: 100px;"></a><p style="font-size: 12px; line-height: 12px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #9EA2A2; font-weight: normal; margin: 0 0 5px;">Civil Air Patrol<br/>Serving our communities and nation</p></body></html>`,
+					}<a href="https://www.GoCivilAirPatrol.com"><img src="unnamed.png" style="margin: 10px 0 10px -5px; max-width: 150px;"></a><p style="font-size: 12px; line-height: 12px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #9EA2A2; font-weight: normal; margin: 0;">https://www.GoCivilAirPatrol.com | 1-877-227-1247</p></body></html>`,
 				plaintext: () =>
 					`${grade_type === 'Cadet' ? 'Cadet'  : ''}${vals.grade || ''} ${
 						vals.name
@@ -712,7 +712,7 @@ Apollo Comp. Sq. Operations Officer"
 				>
 					<path
 						fill="currentColor"
-						d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 112h72.51l7.418-112c.375-6.621-5.337-12.654-11.981-12.654h-63.424c-6.644 0-12.356 6.033-11.981 12.654z"
+						d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.873-5.338-12.654-12.207-12.654h-63.146c-6.869 0-12.582 5.78-12.207 12.654z"
 					></path>
 				</svg>
 				If you have problems with formatting after pasting the signature
